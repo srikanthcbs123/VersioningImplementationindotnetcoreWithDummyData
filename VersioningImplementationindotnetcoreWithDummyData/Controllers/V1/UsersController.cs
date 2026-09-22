@@ -22,7 +22,7 @@ namespace VersioningImplementationindotnetcoreWithDummyData.Controllers.V1
     }
 }
 /*
- * API Versioning in .NET Core is a technique used to update your API without breaking existing mobile apps or clients that rely on older response structures.
+ * API Versioning in .NET Core is a technique used to update your API without breaking existing mobile apps or web applications.
 
 It allows you to run multiple versions of the same endpoint (like v1 and v2) at the same time.
 
