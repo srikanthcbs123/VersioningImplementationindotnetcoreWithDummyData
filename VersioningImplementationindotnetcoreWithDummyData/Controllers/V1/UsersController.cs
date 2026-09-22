@@ -29,9 +29,9 @@ we can  run multiple versions of the same endpoint (like v1 and v2) at the same 
 
  The main reasons to using this one is:Legacy clients continue using v1 while new clients migrate to v2.
 
-Smooth Upgrades: You can add breaking schema changes without taking down existing services.
 
-The 3 Most Common Approaches
+
+We canimplement API versioning in .NET Core using three main approaches:
 1. URL Route (Most Popular):  GET /api/v1/users
 2. Query Parameter:           GET /api/users?api-version=1.0
 3. Request Header:            GET /api/users  [Header: X-Version = 1.0]
